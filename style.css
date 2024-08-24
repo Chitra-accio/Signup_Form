@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #FFFFFF;
+}
+.form{
+    width: 600px;
+    height: 600px;
+    font-size: 25px;
+    position: fixed;
+    top: 150px;
+    right: 500px;
+    left: 400px;
+    padding: 5px;
+    font-family: "Inter", sans-serif;
+}
+.input-form{
+    padding: 5px;
+    color: 	#FFFFFF;
+    font-size: 25px;
+    font-weight: 300px;
+    font-style: normal;
+    border:none;
+    background-color: transparent;
+    line-height: normal;
+}
+.submitbtn{
+    width: 200px;
+    height: 50px;
+    border: 0px solid grey;
+    font-size: 22px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    cursor: default;
+    display: inline-block;
+    font-family: "Inter", sans-serif; 
+}
+.radio{
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+.checkbox{
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+label{
+    cursor: default;
+}
+input:focus{
+    box-shadow: none;
+    outline: none;
+    border:none;  
+    cursor: pointer; 
+}
+input::placeholder{
+    color: #FFFFFF;
+    opacity: 1;
+}
+input[type="radio"]:focus{
+    cursor: default;
+    appearance: auto;
+    outline-offset: 2px;
+    outline: 2px solid skyblue;
+}
+input[type="checkbox"]:focus{
+    outline-offset: 2px;
+    outline: 2px solid skyblue;
+}
+
+
